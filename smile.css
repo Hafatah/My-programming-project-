@@ -1,0 +1,62 @@
+.hel{
+    background-color: green;
+    width: 100%;
+    height: 45%;
+}
+.leh{
+    text-align: center;
+}
+.elh{
+    font-size: 45px;
+    font-weight: 400;
+}
+.he{
+    font-size: 35px;
+
+}
+.haf{
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    font: size 40px;
+    width:fit-content;
+    height:50px;
+    font-weight:100px;
+    padding: 10px;
+}
+.you{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+                    /* THIS IS A NAVIGATION */
+.dev{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ved{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    border: 1px solid rgba(11, 86, 156, 0.76);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 4px;
+    font-size: 30px;
+    background-color: rgba(133, 161, 30, 0.808);
+    justify-content: center;
+}
+.dol{
+    justify-content: center;
+}
+.bol{
+    text-decoration: none;
+    align-items: space-between;
+    border: none;
+    padding: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:rgba(108, 51, 161, 0.822);
+}
