@@ -76,6 +76,10 @@
     margin: none;
     margin-top: 0px;
 }
+.fer{
+    visibility: hidden;
+    display: absolute;
+}
    /* BULLS EYE */
 .bah{
     border-radius: 100%;
@@ -104,4 +108,32 @@
     z-index: -100;
     float: left;
 }
-
+@media screen  and (max-width:768px) {
+    .spoty{
+        visibility: hidden;
+        position: absolute;
+    }
+    .fer{
+        visibility: visible;
+        position: absolute;
+    }
+    .four{
+        visibility: hidden;
+        position: absolute;
+    }
+}
+.ujo{
+    background-color: teal;
+    width:fit-content;
+}
+.get{
+    list-style-type: none;
+    visibility: hidden;
+    position:relative;
+    margin:0px;
+    text-align: center;
+}
+.ujo:hover ol{
+    visibility: visible;
+    margin:0px;
+}

@@ -58,9 +58,6 @@
     padding-left: 5px;
     padding-right:5px ;
 }
-/* .blah{
-    margin:25px 0px 0px 15px ;
-} */
 .ten{
     height: 30px;
     background-color: purple;
@@ -121,7 +118,7 @@
 }
 .hel{
     background-color: rgb(219, 195, 195, 0.4);
-    width: 350px;
+    width: 360px;
     height: 350px;
 }
 .ooh{
@@ -177,6 +174,7 @@
     padding-right: 25px;
     font-size: 11px;
     padding-top:7px;
+    padding-bottom: 10px;
 }
 .emm{
     text-decoration: none;
@@ -218,7 +216,7 @@
     display: flex;
     flex-direction: row;
     margin: none;
-    margin-left: 700px;
+    margin-left: 1000px;
 }
 .lu{
     width: 60px;
@@ -233,10 +231,32 @@
     margin: none;
     margin-left: 40px;
 }
-.nuno{
-    margin: none;
-    margin-top: 0px;
-    margin-left: 450px;
-    font-size: 11px;
-    padding-bottom: 5px;
+@media screen and (max-width: 768px) {
+    .nineteen{
+        display: flex;
+        flex-direction: column;
+    }
+    .jeh{
+       display: none;
+    }
+    .hel{
+        margin: none;
+        margin-top: 10px;
+    }
+    .ess{
+        display: none;
+    }
+    .aar{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        border: none;
+        align-content: flex-start;
+    }
+    .olu{
+        display: flex;
+        flex-direction: row;
+        margin:none ;
+        margin-left: 0px;
+    }
 }
